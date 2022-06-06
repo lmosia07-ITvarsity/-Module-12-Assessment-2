@@ -1,0 +1,76 @@
+
+.section-divider{ 
+    margin: 3rem 0;
+}
+
+@media (min-width: 1200px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
+
+.footer-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: green;
+}
+
+.contactForm{
+  width: 40%;
+  padding: 40px;
+  background: rgb(136, 151, 151);
+}
+
+.contactForm .editForm{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.button{
+  display : block;
+  background-color: forestgreen;
+  text-decoration : none;
+  text-align  : center;
+  color       : white;
+  font-size   : 16px;
+  font-weight : 600;
+  margin : 12px 0;
+  padding : 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
