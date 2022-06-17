@@ -1,3 +1,64 @@
+.contactForm{
+  width: 100%;
+  padding: 29px;
+  background: rgba(0, 0, 0, 0.1); 
+
+}
+
+
+.editForm {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+
+}
+
+#table{
+  background: rgb(115, 168, 115);
+  width: 25%;
+  border-collapse:collapse; 
+  border:1px solid;
+  
+}
+
+td {
+  text-align: center;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: coral;}
+
+th {
+  height: 70px;
+}
+
+#avatarImage{
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+#homeLink #editContact #deleteContact #submitForm{
+  width: 100px;
+  background: #42000C;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 10px;
+}
 
 .section-divider{ 
     margin: 3rem 0;
@@ -19,35 +80,37 @@
     }
 }
 
-.footer-section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: green;
-}
 
-.contactForm{
-  width: 40%;
-  padding: 40px;
-  background: rgb(136, 151, 151);
-}
 
-.contactForm .editForm{
-  position: relative;
-  width: 100%;
-  margin-top: 10px;
-}
 
-.button{
-  display : block;
-  background-color: forestgreen;
-  text-decoration : none;
-  text-align  : center;
-  color       : white;
-  font-size   : 16px;
-  font-weight : 600;
-  margin : 12px 0;
-  padding : 8px 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
